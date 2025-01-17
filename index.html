@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shiv Patel</title>
+    <link rel=stylesheet href="style.css">
+    <link rel=stylesheet href="mediaqueries.css">
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+</head>
+<body>
+    <nav id = "desktop-nav">
+        <div class="logo">
+            Shiv Patel <span class ="text"> </span>
+        </div>
+        <div>
+            <ul class = "nav-links">
+                <li> <a href="index.html">Home</a></li>
+                <li> <a href="about.html">About</a></li>
+                <li> <a href="projects.html">Projects</a></li>
+                <li> <a href="contact.html">Contact</a></li>    
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo">
+            Shiv Patel
+        </div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li> <a href="index.html" onclick="toggleMenu()" >Home</a></li>
+                <li> <a href="about.html" onclick="toggleMenu()" >About</a></li>
+                <li> <a href="projects.html" onclick="toggleMenu()" >Projects</a></li>
+                <li> <a href="contact.html" onclick="toggleMenu()" >Contact</a></li> 
+            </div>
+        </div>
+    </nav>
+    <div class="wrapper">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+
+    </div>
+    <div class="banner">
+        <div class="content">
+            <h2>
+                <b>Shiv Patel</b> (he/him)       
+            </h2>
+            
+            <h3>
+                <b>Software Engineering @ McMaster University </b>
+            </h3>
+            <h4>Seeking 2024 Fall/Winter Internships</h4>
+            <div id="socials-container">
+                <img 
+                src="./assets/Pdf_icon_file.png" 
+                alt="My Resume"
+                class = "icon" 
+                onclick="window.open('./assets/spr.pdf')">
+                
+                <img 
+                src="./assets/LinkedIn_icon_circle.svg.png" 
+                alt="My LinkedIn Profile"
+                class = "icon" 
+                onclick="window.open(href='https://www.linkedin.com/in/shivpatel-sp/')">
+    
+                <img 
+                src="./assets/Github-desktop-logo-symbol.svg.png" 
+                alt="My Github Profile"
+                class = "icon" 
+                onclick="window.open(href='https://github.com/Shiv-sp')">
+                
+                
+            </div>
+        </div>
+    </div>
+    
+
+
+    <script type="module" src="script.js"></script>
+</body>
+</html>
+
+
